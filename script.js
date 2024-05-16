@@ -30,9 +30,9 @@ const questions = [
         question: "Who wrote 'Hamlet'?",
         answers: [
             {text: "Charles Dickens", correct: false},
-            {text: "Mark Twain", correct: false},
+            {text: "William Shakespeare", correct: true},
             {text: "Jane Austen", correct: false},
-            {text: "William Shakespeare", correct: true}
+            {text: "Mark Twain", correct: false}
         ]
     },
     {
@@ -43,8 +43,108 @@ const questions = [
             {text: "CO2", correct: false},
             {text: "NaCl", correct: false}
         ]
+    },
+    {
+        question: "In which year did the Titanic sink?",
+        answers: [
+            {text: "1905", correct: false},
+            {text: "1912", correct: true},
+            {text: "1918", correct: false},
+            {text: "1923", correct: false}
+        ]
+    },
+    {
+        question: "Which element has the atomic number 1?",
+        answers: [
+            {text: "Helium", correct: false},
+            {text: "Hydrogen", correct: true},
+            {text: "Oxygen", correct: false},
+            {text: "Carbon", correct: false}
+        ]
+    },
+    {
+        question: "What is the square root of 144?",
+        answers: [
+            {text: "10", correct: false},
+            {text: "11", correct: false},
+            {text: "12", correct: true},
+            {text: "13", correct: false}
+        ]
+    },
+    {
+        question: "Who painted the Mona Lisa?",
+        answers: [
+            {text: "Vincent van Gogh", correct: false},
+            {text: "Pablo Picasso", correct: false},
+            {text: "Leonardo da Vinci", correct: true},
+            {text: "Claude Monet", correct: false}
+        ]
+    },
+    {
+        question: "What is the powerhouse of the cell?",
+        answers: [
+            {text: "Nucleus", correct: false},
+            {text: "Ribosome", correct: false},
+            {text: "Mitochondria", correct: true},
+            {text: "Endoplasmic Reticulum", correct: false}
+        ]
+    },
+    {
+        question: "Who discovered penicillin?",
+        answers: [
+            {text: "Marie Curie", correct: false},
+            {text: "Alexander Fleming", correct: true},
+            {text: "Louis Pasteur", correct: false},
+            {text: "Gregor Mendel", correct: false}
+        ]
+    },
+    {
+        question: "What is the capital city of Australia?",
+        answers: [
+            {text: "Sydney", correct: false},
+            {text: "Melbourne", correct: false},
+            {text: "Canberra", correct: true},
+            {text: "Brisbane", correct: false}
+        ]
+    },
+    {
+        question: "What is the value of Pi up to two decimal places?",
+        answers: [
+            {text: "3.12", correct: false},
+            {text: "3.14", correct: true},
+            {text: "3.16", correct: false},
+            {text: "3.18", correct: false}
+        ]
+    },
+    {
+        question: "In what year did World War II end?",
+        answers: [
+            {text: "1943", correct: false},
+            {text: "1944", correct: false},
+            {text: "1945", correct: true},
+            {text: "1946", correct: false}
+        ]
+    },
+    {
+        question: "Who developed the theory of relativity?",
+        answers: [
+            {text: "Isaac Newton", correct: false},
+            {text: "Albert Einstein", correct: true},
+            {text: "Galileo Galilei", correct: false},
+            {text: "Nikola Tesla", correct: false}
+        ]
+    },
+    {
+        question: "Which gas is most abundant in the Earth's atmosphere?",
+        answers: [
+            {text: "Oxygen", correct: false},
+            {text: "Nitrogen", correct: true},
+            {text: "Carbon Dioxide", correct: false},
+            {text: "Hydrogen", correct: false}
+        ]
     }
 ]
+
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
